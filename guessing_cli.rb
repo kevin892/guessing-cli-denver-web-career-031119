@@ -4,8 +4,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6. "
   user_input = gets.chomp.to_i
   until user_input == number_gen
-    puts "The computer guessed #{number_gen}."
-    break
+    puts "The computer guessed #{number_gen.to_s}."
     user_input = gets.chomp.to_i
 end
 puts "You guessed the correct number!"
