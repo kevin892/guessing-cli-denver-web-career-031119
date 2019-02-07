@@ -5,6 +5,7 @@ def run_guessing_game
   user_input = gets.chomp.to_i
   while user_input != number_gen
     puts "The computer guessed #{number_gen}."
+    break
     user_input = gets.chomp.to_i
 end
 puts "You guessed the correct number!"
