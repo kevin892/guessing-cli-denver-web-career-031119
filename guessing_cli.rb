@@ -7,5 +7,5 @@ def run_guessing_game
     puts "The computer guessed #{number_gen}."
     user_input = gets.chomp.to_i
 end
-puts "You guessed the number correctly!"
+puts "You guessed the correct number!"
 end
