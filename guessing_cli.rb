@@ -8,4 +8,5 @@ def run_guessing_game
     user_input = gets.chomp.to_i
 end
 puts "You guessed the correct number!"
+puts "Goodbye!"
 end
